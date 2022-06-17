@@ -1,0 +1,29 @@
+{
+  "name": "blog_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samba-chinta/blog_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samba-chinta/blog_server/issues"
+  },
+  "homepage": "https://github.com/samba-chinta/blog_server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.8",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16"
+  }
+}
